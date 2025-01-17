@@ -10,6 +10,6 @@ public class Static {
 	}
 	public static void main(String[] args) { // 메모리를 생성하려면 무조건 new
 		System.out.println(i); // 메모리를 생성 안해도 되는 건 static임.
-		test();
+		test(); // static은 메모리를 만들어도 되고 안만들어도 되는데 nonstatic은 무조건 만들어야됨
 	}
 }
