@@ -2,6 +2,7 @@ package d0117;
 
 public class Static3 {
 	static int age = 10;
+	
 	public static void main(String[] args) {
 		Static3 s1 = new Static3();
 		System.out.println(s1.age);
