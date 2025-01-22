@@ -17,5 +17,8 @@ public class DataType {
 		
 		//논리
 		boolean bl = true;
+		// 이탤릭체가 아니면 static이 아님
+		// 이탤릭체면 static임.
+		System.out.println(); // non-static
 	}
 }

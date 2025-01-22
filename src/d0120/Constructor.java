@@ -9,8 +9,10 @@ public class Constructor {
 	public Constructor() { // 메모리를 생성할 때 실행됨
 		System.out.println("어? 내 메모리를 생성했구나~");
 	} // 이게 자동으로 들어가있음
+	// c가 대문자면 생성자임 void c(대문자)는 메서드임
 	public static void main(String[] args) {
 		Constructor c = new Constructor();
+		
 		c = new Constructor();// 생성자는 데이터 타입이 없음 Constructor 호출
 		// 호출할때는 반드시 new
 		// 반드시 클래스이름과 똑같아야됨
